@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contatos</title>
+</head>
+
+<body>
+    <div class="container_blur">
+        <header class="cabeca">
+            <div class="container">
+
+                <img src="img/livro.png" alt="" class="logo">
+                <nav class="navegacao">
+                    <ul>
+                        <li><a class="ancora" href="index.html">Home</a></li>
+                        <li><a class="ancora" href="produtos.html">Produtos</a></li>
+                        <li><a class="ancora" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container_cont">
+            <form action="formes">
+
+                <input type="text" id="nome_sobrenome" class="input_padrao" required placeholder="Nome e Sobrenome">
+
+                <input type="text" id="email" class="input_padrao" required placeholder="Email">
+
+                <input type="text" id="tele" class="input_padrao" required placeholder="Telefone: (xx)xxxx-xxxx">
+
+                <textarea id="mensagem" cols="30" rows="10" required placeholder="Sua mensagem"></textarea>
+
+                <div class="bloco_fieldset">
+                    <fieldset>
+                        <legend>Preferencia de contato</legend>
+
+                        <label for="radio_email"> <input type="radio" name="contato" value="email"
+                                id="radio_email">Email</label>
+
+
+                        <label for="radio_telefone"> <input type="radio" name="contato" value="telefone"
+                                id="radio_telefone">Telefone</label>
+
+
+                        <label for="radio_whatsapp"> <input type="radio" name="contato" value="whatsApp" id="radio_whatsapp"
+                                checked>WhatsApp</label>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Período</legend>
+                        <select name="" id="">
+                            <option value="">Manha</option>
+                            <option value="">Tarde</option>
+                            <option value="">Noite</option>
+                        </select>
+                    </fieldset>
+            </div>
+                <label for="che" class="checkbox"><input type="checkbox" checked>Receber novidades por email</label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td>Segunda</td>
+                    <td>8h as 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h as 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h as 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <img class="rodape" src="img/livro.png" alt="Logo da livraria">
+            <p class="copy_roda">&copy; Melhores Livros</p>
+        </footer>
+    </div>
+</body>
+
+</html>

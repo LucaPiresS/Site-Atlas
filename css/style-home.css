@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-image: url(../img/templo_atenas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    max-width: 150px;
+    width: 10%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 56%, rgba(0, 0, 0, 0.4150035014005602) 83%, rgba(0, 0, 0, 0) 100%);
+}
+
+.navegacao {
+    font-family: "Kode Mono", monospace;
+}
+
+.navegacao li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.ancora {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.ancora:hover {
+    text-decoration: underline;
+    opacity: 1;
+    transition: 200ms;
+}
+
+.linha {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border: black;
+    margin: 0;
+}
+
+.importante {
+    padding: 40px 0px 40px 0px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos li {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 4px solid black;
+    background-color: rgb(246, 247, 253);
+}
+
+.produtos li:hover {
+    border: 4px solid rgb(211, 144, 0);
+    transition: 100ms;
+}
+
+.produtos li:active {
+    border: 4px solid rgb(90, 63, 0);
+}
+
+
+.livros {
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.nomes {
+    font-size: 20px;
+    font-family: "Kode Mono", monospace;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.descricao,
+.preco {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy_roda {
+    color: white;
+    margin: 60px;
+}

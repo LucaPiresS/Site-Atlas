@@ -1,0 +1,231 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../img/grecia_antiga.jfif);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeca{
+    padding: 20px;
+    background-color: #7788993d;
+}
+.logo{
+    width: 13%;
+    border-radius: 5%;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navegacao li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.ancora{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.6;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 200ms;
+}
+.navegacao .ancora:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    background: #7788993d;
+    padding: 15px;
+
+}
+.rodape{
+    width: 7%;
+    border-radius: 10%;
+}
+.copy_roda{
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+form {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+.input_padrao{
+    display: block;
+    margin-bottom:  30px;
+    padding: 10px 25px;
+
+    border-radius: 15px;
+    outline: none;
+    font-size: 18px;
+    width: 60%;
+    background-color: #7788993d;
+    color: white;
+    font-weight: 800;
+}
+
+::placeholder {
+    color: white;
+}
+
+.container_cont{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+form textarea{
+    display: block;
+    margin:  0 0 20px;
+    padding: 10px 25px;
+
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+form textarea::placeholder {
+    color: black;
+    font-size: 15px;
+}
+
+fieldset,select{
+    margin: 10px;
+    color: white;
+    font-weight: 800;
+    background-color: #7788993d;
+}
+
+select {
+    background-color: white;
+}
+
+.checkbox{
+    margin: 20px 0;
+    color: white;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0 ;
+    background: orange;
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s ;
+    cursor: pointer;
+    transition: 200ms;
+}
+.enviar:hover{
+    background-color: rgb(163, 106, 0);
+}
+table{
+    margin: 20px 0 40px;
+    width: 40%;
+    text-align: center;
+}
+thead{
+    background: orange;
+    color: white;
+    font-weight: bolder;
+}
+td,th{
+    border: 1px solid white;
+    padding: 8px 15px;
+    color: white;
+    background-color: #7788993d;
+}
+
+.container_blur {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    width: 80vw;
+    margin: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+    max-width: 1000px;
+}
+
+.bloco_fieldset {
+    display: flex;
+}
+select {
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+legend {
+    text-align: center;
+}
+
+@media screen and (max-width: 610px) {
+    * {
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .ancora {
+        font-size: 12px;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .input_padrao {
+        font-weight: 100;
+    }
+
+    .bloco_fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloco_fieldset select {
+        margin-left: 60px;
+    }
+    
+    form textarea {
+        padding: 5px;
+    }
+
+    .enviar {
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+    }
+}
