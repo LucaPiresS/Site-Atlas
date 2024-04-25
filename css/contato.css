@@ -185,7 +185,8 @@ legend {
 @media screen and (max-width: 610px) {
     * {
         font-size: 15px;
-        font-weight: 100;
+        font-weight: 200;
+        color: #d6d6d6;
     }
 
     .container {

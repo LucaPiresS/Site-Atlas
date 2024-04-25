@@ -240,6 +240,7 @@ form input {
     background-image: url(../img/templo_atenas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 .itens {
@@ -338,8 +339,10 @@ form input {
     }
 
     .imagem-livros {
-        width: 80%;
-    }
+        padding-left: 20px;
+        width: 200px;
+        height: 250px;
+       }
 
     .video {
         width: 90%;
@@ -383,5 +386,21 @@ form input {
 
     .principal {
         margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner {
+        height: 800px;
+    }
+
+    .conteudo-livros {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape {
+        width: 100px;
     }
 }
