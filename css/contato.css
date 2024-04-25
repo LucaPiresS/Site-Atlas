@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 body {
@@ -185,8 +186,8 @@ legend {
 @media screen and (max-width: 610px) {
     * {
         font-size: 15px;
-        font-weight: 200;
-        color: #d6d6d6;
+        font-weight: 600;
+        color: #ffffff;
     }
 
     .container {
