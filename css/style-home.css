@@ -8,8 +8,7 @@ body {
 }
 
 .logo {
-    max-width: 150px;
-    width: 10%;
+    max-width: 20%;
 }
 
 .container {
@@ -124,6 +123,10 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+
+    .logo{
+        max-width: 20%;
+    }
 
 
     .container {

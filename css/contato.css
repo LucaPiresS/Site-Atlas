@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Kode Mono", monospace;
     font-weight: 800;
 }
 
@@ -16,8 +16,7 @@ body {
     background-color: #7788993d;
 }
 .logo{
-    width: 13%;
-    border-radius: 5%;
+    max-width: 20%;
 }
 .container{
     margin: 0 auto;
@@ -28,7 +27,7 @@ body {
 
 .navegacao li{
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 5px;
 }
 .ancora{
     text-decoration: none;
@@ -102,7 +101,7 @@ form textarea{
     display: block;
     margin:  0 0 20px;
     padding: 10px 25px;
-
+    color: black;
     border-radius: 5px;
     border: 2px solid black;
 }
@@ -185,15 +184,20 @@ legend {
 
 @media screen and (max-width: 610px) {
     * {
-        font-size: 15px;
-        font-weight: 600;
+        font-family: "Kode Mono", monospace;
         color: #ffffff;
     }
 
     .container {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0;
+    }
+
+    .cabeca {
+        padding: 20px 0px 20px 0px;
     }
 
     .logo {
@@ -201,7 +205,7 @@ legend {
     }
 
     .ancora {
-        font-size: 12px;
+        font-size: 22px;
     }
 
     ul {
