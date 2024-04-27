@@ -32,7 +32,8 @@
 }
 
 .logo {
-    max-width: 20%;
+    max-width: 150px;
+    width: 20%;
 }
 
 .container {

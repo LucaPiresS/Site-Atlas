@@ -16,7 +16,8 @@ body {
     background-color: #7788993d;
 }
 .logo{
-    max-width: 20%;
+    max-width: 150px;
+    width: 20%;
 }
 .container{
     margin: 0 auto;
@@ -49,8 +50,8 @@ footer{
 
 }
 .rodape{
-    width: 7%;
-    border-radius: 10%;
+    max-width: 150px;
+    width: 20%;
 }
 .copy_roda{
     color: white;
@@ -68,7 +69,7 @@ form {
 
 form label, form legend {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 0 10px;
 
 }
