@@ -187,7 +187,7 @@ legend {
 @media screen and (max-width: 610px) {
     * {
         font-family: "Kode Mono", monospace;
-        color: #ffffff;
+        color: #000000;
     }
 
     .container {
